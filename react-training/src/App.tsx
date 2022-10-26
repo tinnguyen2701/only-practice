@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import UseBooleanTestComponent from './useHooks/useBoolean';
+import { UseEventListenerComponent } from './useHooks/useEventListener';
 
 function App() {
   return (
     <div className="App">
-      <UseBooleanTestComponent />
+      <UseEventListenerComponent />
     </div>
   );
 }
