@@ -2,6 +2,7 @@
     + setValue: Dispatch<SetStateAction<boolean>> // khai bao kieu
     + onClick = (event: Event)  // khai bao kieu
     + tag button có kiểu HTMLButtonElement, document thì là document
+    + on change cho tag input: (event: ChangeEvent<HTMLInputElement>)
     + RefObject cho ref element
 
 - JS:
