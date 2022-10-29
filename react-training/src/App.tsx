@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { UseEventListenerComponent } from './useHooks/useEventListener';
+import { UseLocalStorageComponent } from './useHooks/useLocalStorage';
 
 function App() {
   return (
     <div className="App">
-      <UseEventListenerComponent />
+      <UseLocalStorageComponent />
     </div>
   );
 }
