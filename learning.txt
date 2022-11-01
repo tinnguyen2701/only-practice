@@ -4,6 +4,6 @@
     + tag button có kiểu HTMLButtonElement, document thì là document
     + on change cho tag input: (event: ChangeEvent<HTMLInputElement>)
     + RefObject cho ref element
-
+    + kiểu của ref: (node: T | null) => void
 - JS:
     + document.hidden để check document hiện tại đang xem ở tab browser hiện tại hay k
