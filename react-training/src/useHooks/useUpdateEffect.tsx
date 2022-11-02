@@ -1,4 +1,4 @@
-
+// Just modified version of useEffect that is skipping the first render.
 
 import { DependencyList, EffectCallback, useEffect, useState } from 'react'
 import useIsFirstRender from './useIsFirstRender'
